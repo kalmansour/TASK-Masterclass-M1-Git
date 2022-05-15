@@ -1,8 +1,8 @@
 import typer
 
 
-def main() -> None:
-    pass
+def main(name: str) -> None:
+    typer.echo(f"Hello, {name}!")
 
 
 if __name__ == "__main__":
